@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Cycles of Humanity</title>
+  <style>
+    body {
+      margin: 0;
+      padding: 0;
+ background-image: url('images/bgcycles.png');
+      background-size: cover;
+      background-position: center;
+     font-family: 'Orbitron', sans-serif;
+      color: #f0f0f0;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      min-height: 100vh;
+    }
+
+    header {
+      margin-top: 40px;
+      text-align: center;
+    }
+
+    header h1 {
+      font-size: 2.5em;
+      margin: 0;
+      color: #ffffff;
+      text-shadow: 0 0 10px #0ff;
+      letter-spacing: 2px;
+    }
+
+    .video-container {
+      margin-top: 30px;
+      max-width: 90%;
+      width: 800px;
+      background-color: #1a1a1a;
+      border: 2px solid #333;
+      border-radius: 12px;
+      box-shadow: 0 0 30px rgba(0,255,255,0.1);
+      overflow: hidden;
+    }
+
+    video {
+      width: 100%;
+      height: auto;
+      display: block;
+      border-bottom: 1px solid #333;
+    }
+
+    .caption {
+      padding: 15px;
+      font-size: 1em;
+      font-style: italic;
+      color: #aaa;
+      text-align: center;
+    }
+
+    @media (max-width: 600px) {
+      header h1 {
+        font-size: 1.8em;
+      }
+
+      .video-container {
+        width: 100%;
+      }
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>Cycles of Humanity</h1>
+  </header>
+
+
+  <div class="video-container">
+    <video controls>
+      <source src="videos/Project 13.mp4" type="video/mp4">
+      Votre navigateur ne supporte pas la lecture vidéo.
+    </video>
+    <div class="caption">The first "Cycles of Humanity" –Proxima Beta.</div>
+  </div>
+
+  <div class="video-container">
+    <video controls>
+      <source src="videos/Project 3.mp4" type="video/mp4">
+      Votre navigateur ne supporte pas la lecture vidéo.
+    </video>
+    <div class="caption">The third "Cycles of Humanity" – Tau Ceti Delta.</div>
+  </div>
+
+  <div class="video-container">
+    <video controls>
+      <source src="videos/ssstik.io_@gossip.goblin_1751755050273.mp4" type="video/mp4">
+      Votre navigateur ne supporte pas la lecture vidéo.
+    </video>
+    <div class="caption">The fifth "Cycles of Humanity" – Therion Rift.</div>
+  </div>
+
+
+
+
+</body>
+</html>
